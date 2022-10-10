@@ -54,3 +54,8 @@ for item in input_data.split(', '):
         flag = False
     else:
         insert(root, int(item))
+inorder(root)
+print()
+preorder(root)
+print()
+postorder(root)
